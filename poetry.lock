@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "currency-monitor"
+version = "0.1.0"
+description = "Currency Monitoring and Alert System using AI"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "^2.6"
+numpy = "^1.21"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
+
