@@ -1,0 +1,34 @@
+[pyproject.toml]
+name = "currencuy-monitoring.ai"
+version = "0.4.3"
+description = "pyproject.toml for currency-monitoring.ai"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.7.4"
+asyncio = "^3.4.3"
+requests = "^2.31.0"
+marshmallow = "^3.10.0"
+jsonpickle = "^1.5.0"
+deserialize = "^1.8.0"
+aiolimiter = "^1.0.0"
+tqdm = "^4.62.3"
+nest-asyncio = "^1.5.5"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^2.11.0"
+pytest = "^6.2.1"
+flake8 = "^3.8.4"
+autopep8 = "^1.5.4"
+matplotlib = "^3.3.3"
+notebook = "^6.4.12"
+numpy = "^1.19.5"
+pandas = "^1.1.5"
+scipy = "^1.9.2"
+yapf = "^0.30.0"
+rope = "^0.18.0"
+pylint = "^2.11.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
